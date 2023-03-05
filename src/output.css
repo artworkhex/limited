@@ -708,11 +708,11 @@ video {
 }
 
 .bg1 {
-  background-image: url(asset/bgDisplay1.png);
+  background-image: url(../asset/bgDisplay1.png);
 }
 
 .bg2 {
-  background-image: url(asset/bgDisplay2.png);
+  background-image: url(../asset/bgDisplay2.png);
 }
 
 .judul {
@@ -781,6 +781,10 @@ video {
 
   .md\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:flex {
