@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-header {
-  background-image: url(/asset/bgDisplay.png);
+.bg1 {
+  background-image: url(asset/bgDisplay1.png);
+}
+.bg2 {
+  background-image: url(asset/bgDisplay2.png);
 }
 
 .judul {
