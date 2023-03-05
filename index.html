@@ -10,7 +10,7 @@
     <link rel="icon" href="" media="(prefers-color-scheme: dark)">
 </head>
 
-<body class="bg-neutral-700 text-white scroll-smooth ">
+<body class="bg-neutral-700 text-white scroll-smooth">
     <header class="bg-cover bg-center w-screen  md:bg1 bg2 ">
 
         <!-- navbar -->
@@ -19,38 +19,38 @@
                 <img class="md:h-[25px]" src="asset/logo.png" alt="logo">
             </a>
             <div class="hidden md:flex">
-                <div id="" class="md:mx-4  hover:text-violet-300">Home</div>
-                <div id="" class="md:mx-4  hover:text-violet-300">About</div>
-                <div id="" class="md:mx-4  hover:text-violet-300">Credits</div>
+                <div class="md:mx-4  hover:text-violet-300"><a href="#home">Home</a></div>
+                <div class="md:mx-4  hover:text-violet-300"><a href="#about"> About</a></div>
+                <div class="md:mx-4  hover:text-violet-300"><a href="#editions"> Editions</a></div>
             </div>
         </nav>
         <!-- judul header -->
-        <div class="items-center block lg:flex mx-4 sm:mx-10 md:mx-20">
-
-            <img class=" md:w-[600px] lg:w-[600px] right-0 block lg:hidden mt-40 md:mt-0 fadeInRight"
+        <div id="home" class="items-center block lg:flex mx-4 sm:mx-10 md:mx-20">
+            <img class=" w-[600px] sm:w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] right-0 block lg:hidden mt-40 md:mt-0 fadeInRight"
                 src="asset/display.png" alt="">
-            <div class="text-left md:w-[600px] md:mr-5 fadeInLeft">
-                <div class="text-3xl sm:text-4xl md:text-5xl font-black   ">SEPATU <span
-                        class="text-5xl sm:text-6xl md:text-7xl font-black warna ">PREMIUM</span></div>
-                <div class="font-light md:text-xl">
+            <div class="text-left  md:w-[600px] md:mr-5 fadeInLeft">
+                <div class="text-3xl sm:text-4xl md:text-3xl lg:text-5xl font-black   ">SEPATU <br> <span
+                        class="text-4xl sm:text-5xl md:text-4xl lg:text-7xl font-black warna ">PREMIUM</span></div>
+                <div class="font-light text-base  lg:text-xl">
                     SEPATU CUSTOM TERBATAS DARI
                     KELAS X PPLG 2 GELAR KARYA SENIBUDAYA SMK
                     NEGERI 1 PURWOKERTO TAHUN 2023
                 </div>
                 <div
                     class="sm:px-5 md:px-7 sm:py-1 md:py-2 mt-4 bg-white text-black font-bold w-[150px] md:w-[200px]   hover:shake-horizontal ">
-                    Read More >></div>
+                    <a href="#about">Read More >></a>
+                </div>
             </div>
             <img class="md:w-[600px] lg:w-[600px] right-0 hidden lg:block" src="asset/display.png" alt="">
         </div>
         <div class="flex items-center mt-20 justify-between mb-20 ">
             <div class="bg-white h-[3px] w-[170px] md:w-[300px] md:h-[5px]"></div>
-            <div class=" text-base md:text-2xl pr-10 ">New Product</div>
+            <div class=" text-base md:text-2xl pr-10 font-extralight">New Product</div>
         </div>
     </header>
 
     <!-- tentang sepatu -->
-    <div class="text-center mx-4 sm:mx-10 md:mx-20  mb-10 md:mb-20 fadeInUp ">
+    <div id="about" class="text-center mx-4 sm:mx-10 md:mx-20  mb-10 md:mb-20 fadeInUp ">
         <div class="font-bold text-4xl md:text-5xl warna">About This Sneakers</div>
         <div class="font-light md:text-2xl mt-5">Custom Sneakers limited edition yang dibuat menggunakan cat
             berkualitas,
@@ -67,12 +67,15 @@
     <img class=" px-10 md:px-20 mb-20" src="asset/spesifikasi.png" alt="">
 
     <!-- edisi sepatu custom -->
-    <div class="text-center mb-20 ">
+    <div id="editions" class="text-center mb-20 ">
         <div class="font-bold text-4xl md:text-5xl warna fadeInUp ">3 Edition Custom Sneckers</div>
         <div class="px-20 md:px-20 text-center block md:flex mt-10 justify-center">
-            <img class=" w-[100%] md:w-[400px]" src="asset/display1.png" alt="editions">
-            <img class=" w-[100%] md:w-[400px]" src="asset/display2.png" alt="editions">
-            <img class=" w-[100%] md:w-[400px]" src="asset/display3.png" alt="editions">
+            <img class=" w-[100%] sm:w-[400px] md:w-[250px] lg:w-[260px] xl:w-[400px]" src="asset/display1.png"
+                alt="editions">
+            <img class=" w-[100%] sm:w-[400px] md:w-[250px] lg:w-[260px] xl:w-[400px]" src="asset/display2.png"
+                alt="editions">
+            <img class=" w-[100%] sm:w-[400px] md:w-[250px] lg:w-[260px] xl:w-[400px]" src="asset/display3.png"
+                alt="editions">
         </div>
     </div>
 
