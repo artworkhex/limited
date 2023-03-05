@@ -697,10 +697,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-transparent {
-  color: transparent;
-}
-
 .bg1 {
   background-image: url(../asset/bgDisplay1.png);
 }
@@ -716,9 +712,38 @@ video {
   -webkit-text-fill-color: transparent;
 }
 
-.hover\:bg-neutral-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+/* animasi1 */
+
+.shake-horizontal {
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+
+  80% {
+    transform: translateX(8px);
+  }
+
+  90% {
+    transform: translateX(-8px);
+  }
 }
 
 .hover\:text-violet-300:hover {
